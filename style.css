@@ -7,7 +7,8 @@ body{
 
 .page{
   width: 1000px;
-  margin: 65px auto 0px;
+  margin: 0 auto;
+  margin-top: 65px;
  
 }
 
