@@ -1,0 +1,121 @@
+body{
+  margin: 0px;
+}
+
+
+.page{
+  width: 1000px;
+  margin: 65px auto 0px;
+ 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+ul{
+  list-style: none; /*tiro o ponto da lista*/
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-family: Mulish;
+  font-size: 18px;
+}
+
+/*Pseudo-class =  fica bold quando passa o mouse*/
+ul li a:hover {
+  font-weight: bold;
+  color: #1F1534;
+  opacity: 1;
+}
+
+/*Tirar o sublinhado do a*/
+ul li a {
+  text-decoration: none;
+  color: #1F1534;
+  opacity: 0.5;
+}
+
+/*Display flex deixa uma caixa ao lado da outra*/
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: 'Mulish';
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+  margin-bottom: 40px;
+  width: 490px;
+
+}
+
+h1 span {
+  color: #89C5CC;
+  font-family:'Mulish';
+  font-weight: bold; /*negrito*/
+}
+
+p {
+  font-family: Open Sans;
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+
+}
+
+button{
+  text-transform: uppercase; /*transforma o foramto do texto de minusculo para maiusculo*/
+  background: #69B99D;
+  color: white;
+  font-family: 'open sans';
+
+  padding: 14px 32px 15px 32px;
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover{
+  background: #5aaa8e;
+}
+
+
+footer{
+  text-align: center; /*deixar no centro da página*/
+  margin-top: 80px;
+  color: #1F1534;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 28px;
+  font-style: normal;
+}
+
+footer a {
+  font-weight: bold;
+
+}
+
+.bolinha {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
